@@ -4,7 +4,6 @@ spring:
       roles: ${CONFIG_ROLES:manager}
       name: ${CONFIG_USERNAME:adminz}
       password: ${CONFIG_PASSWORD:123123zZ}
-
 management:
   endpoints:
     web:
